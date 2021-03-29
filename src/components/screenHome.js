@@ -6,8 +6,7 @@ import { Api, Button, useNavigate, useOpenURL } from 'renative';
 import { withFocusable } from '@noriginmedia/react-spatial-navigation';
 import Theme, { themeStyles, hasWebFocusableUI, ICON_LOGO, CONFIG, ROUTES } from '../config';
 import packageJson from '../../package.json';
-import QierPlayer from 'qier-player';
-
+import VideoPlayer from '../components/videoPlayer'
 
 const FocusableView = withFocusable()(View);
 
@@ -39,9 +38,7 @@ const ScreenHome = (props) => {
                 ref={scrollRef}
                 contentContainerStyle={themeStyles.container}
             >
-                
-                <QierPlayer srcOrigin='https://s3.my-film.pw/serial/The.Walking.Dead/04-480p.Farsi.Dubbed/The.Walking.Dead.S04E01.480p.Exclusive.Farsi.Dubbed.mkv' />
-                
+                <VideoPlayer />                
                 <FocusableView style={{ marginTop: 20, flexDirection: 'row' }} onBecameFocused={handleFocus}>
                     
                 </FocusableView>

@@ -40,10 +40,11 @@
         "renative": "0.31.3"
     },
     "devDependencies": {
-        "rnv": "0.31.3",
-        "renative-template-hello-world": "0.31.3",
-        "@rnv/engine-rn-web": "0.31.3",
         "@rnv/engine-rn": "0.31.3",
+        "@rnv/engine-rn-web": "0.31.3",
+        "renative-template-hello-world": "0.31.3",
+        "rnv": "0.31.3",
+        "video.js": "^7.11.4",
         "xcode": "2.1.0"
     },
     "optionalDependencies": {
