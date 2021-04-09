@@ -1,7 +1,8 @@
-/* global SubtitlesOctopus */
 import React, { Component } from "react";
 import videojs from "video.js";
 import "video.js/dist/video-js.min.css";
+// import video1 from "../asset/videos/CmT3hR8x39NVM9r5.mp4";
+// import sub1 from "../asset/videos/The.Walking.Dead.S04E01.480p.Exclusive.Farsi.Dubbed.vtt"
 
 class VideoPlayer extends Component {
   componentDidMount() {
@@ -32,7 +33,10 @@ class VideoPlayer extends Component {
     return (
       <div>
         <div data-vjs-player>
-          <video ref={node => (this.videoNode = node)} className="video-js" />
+          <video ref={node => (this.videoNode = node)} className="video-js" controls>
+            {/* <source src={video1} type="video/mp4"/>
+            <track src={sub1} kind="captions" srclang="en" label="English" /> */}
+          </video>
         </div>
       </div>
     );

@@ -15,6 +15,7 @@
         "@react-navigation/routers": "5.1.0",
         "@react-navigation/stack": "5.1.1",
         "@react-navigation/web": "1.0.0-alpha.9",
+        "babel-preset-es2015": "^6.24.1",
         "bower": "^1.8.12",
         "detox": "17.8.0",
         "hash-source": "1.0.4",
@@ -33,6 +34,7 @@
         "react-native-screens": "2.2.0",
         "react-native-tab-view": "2.13.0",
         "react-native-vector-icons": "6.6.0",
+        "react-native-video": "^5.1.1",
         "react-native-vlc-media-player": "^1.0.30",
         "react-native-web": "0.13.12",
         "react-native-web-image-loader": "0.0.5",
@@ -42,6 +44,7 @@
     "devDependencies": {
         "@rnv/engine-rn": "0.31.3",
         "@rnv/engine-rn-web": "0.31.3",
+        "babel-preset-env": "^1.7.0",
         "renative-template-hello-world": "0.31.3",
         "rnv": "0.31.3",
         "video.js": "^7.11.4",
